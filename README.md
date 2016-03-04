@@ -1,5 +1,6 @@
 # django-awsome
 Minimal django app, ready for deployment on AWS ElasticBeanstalk.  
+It is a "Hello world" example for django + AWS deployments. It contains a django project named `one` and a django app named `hello`.
 
 ### Features
 * Static assets  
@@ -11,6 +12,7 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 #### 1. Specify environment variables
 * django details  
 `DJANGO_SETTINGS_MODULE`  
+Specify the value as `one.settings`.
 
 * S3 Details  
 `AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_STORAGE_BUCKET_NAME`  
