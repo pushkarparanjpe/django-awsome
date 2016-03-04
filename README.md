@@ -9,6 +9,13 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 * DB backend  
 * django Admin  
 
+### Quickstart
+* Create an application and an env in EBS
+* Create a Postgre DB instance in RDS
+* Specify environment variables
+* Create virtual env
+* Clone django-awsome
+
 ### AWS components
 * ElasticBeanstalk  
 * S3  
