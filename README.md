@@ -1,6 +1,6 @@
 # django-awsome
 Minimal django app, ready for deployment on AWS ElasticBeanstalk.  
-It is a "Hello world" example for django + AWS deployments. It contains a django project named `one` and a django app named `hello`.
+It is a "Hello world" reference implementation of a basic django app with AWS deployability mind. It contains a django project named `one` and a django app named `hello`. Just configure your EBS enviroment, clone this repo and deploy!
 
 ### Features
 * Static assets  
@@ -34,5 +34,20 @@ Specify these so that a superuser will get created and you will be able to acces
 `eb init`  
 `eb deploy`  
 
+
+#### 3. Visit the root URL
+Visit `http://YOUR_ENV_CONTEXT.elasticbeanstalk.com/`
+You should see the happy django message:
+> It worked!
+> Congratulations on your first Django-powered page.
+> ...
+
+
+#### 4. Visit the admin login page
+You should be able to see the pretty contrib admin login interface (CSS + JS should have loaded smoothly via S3).
+You should be able to login using the SUPER_USER credentials that your specified in the EBS environmet configuration.  
+
+That's all folks!  
+Now go make awesome things, at scale. ^-^
 
 
