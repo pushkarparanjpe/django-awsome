@@ -1,6 +1,5 @@
 # django-awsome
-Minimal django app, ready for deployment on AWS ElasticBeanstalk.  
-It is a "Hello world" reference implementation of a basic django app with AWS deployability mind. It contains a django project named `one` and a django app named `hello`. Just configure your EBS enviroment, clone this repo and deploy!
+It is a "Hello world" reference implementation of a basic django app with deployability on AWS ElasticBeanstalk in mind. It contains a django project named `one` and a django app named `hello`. Just configure your EBS enviroment, clone this repo and deploy!
 
 ### Features
 * Static assets  
