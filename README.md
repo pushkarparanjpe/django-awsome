@@ -44,7 +44,7 @@ You should see the happy django message:
 
 #### 4. Visit the admin login page
 You should be able to see the pretty contrib admin login interface (CSS + JS should have loaded smoothly via S3).
-You should be able to login using the SUPER_USER credentials that your specified in the EBS environmet configuration.  
+You should be able to login using the SUPER_USER credentials that your specified in the EBS environment configuration.  
 
 That's all folks!  
 Now go make awesome things, at scale. ^-^
