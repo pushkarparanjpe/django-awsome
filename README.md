@@ -10,13 +10,22 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 * django Admin  
 
 ### Quickstart
-* Create an application and an env in EBS
-* Create and configure a S3 bucket
-* Create a Postgre DB instance in RDS
-* Specify environment variables
-* Create virtual env
-* Clone django-awsome
-* Deploy to EBS
+
+#### Specify environment variables
+* django details  
+`DJANGO_SETTINGS_MODULE`  
+
+* S3 Details  
+`AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_STORAGE_BUCKET_NAME`  
+
+* Postgresql DB Details  
+`DB_ENGINE, DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER`  
+
+* Admin details  
+`SUPER_USER_EMAIL, SUPER_USER_NAME, SUPER_USER_PASSWORD`  
+
+#### Clone and deploy django-awsome to EBS
+
 
 ### AWS components
 * ElasticBeanstalk  
