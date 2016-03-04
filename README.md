@@ -22,6 +22,11 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 `SUPER_USER_EMAIL, SUPER_USER_NAME, SUPER_USER_PASSWORD`  
 
 #### 2. Clone and deploy django-awsome to EBS
+`git clone https://github.com/pushkarparanjpe/django-awsome.git`  
+`cd django-awsome/`  
+`eb init`  
+`eb deploy`  
+
 
 
 ### AWS components
