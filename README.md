@@ -1,9 +1,6 @@
 # django-awsome
 Minimal django app, ready for deployment on AWS ElasticBeanstalk.  
 
-### Pre-requisites
-* Amazon account on AWS  
-
 ### Features
 * Static assets  
 * DB backend  
