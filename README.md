@@ -11,7 +11,7 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 
 ### Quickstart
 
-#### Specify environment variables
+#### 1. Specify environment variables
 * django details  
 `DJANGO_SETTINGS_MODULE`  
 
@@ -24,7 +24,7 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 * Admin details  
 `SUPER_USER_EMAIL, SUPER_USER_NAME, SUPER_USER_PASSWORD`  
 
-#### Clone and deploy django-awsome to EBS
+#### 2. Clone and deploy django-awsome to EBS
 
 
 ### AWS components
