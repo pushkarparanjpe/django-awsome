@@ -15,6 +15,7 @@ Minimal django app, ready for deployment on AWS ElasticBeanstalk.
 * Specify environment variables
 * Create virtual env
 * Clone django-awsome
+* Deploy to EBS
 
 ### AWS components
 * ElasticBeanstalk  
