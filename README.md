@@ -38,9 +38,9 @@ Specify these so that a superuser will get created and you will be able to acces
 #### 3. Visit the root URL
 Visit `http://YOUR_ENV_CONTEXT.elasticbeanstalk.com/`
 You should see the happy django message:
-> It worked!
-> Congratulations on your first Django-powered page.
-> ...
+> It worked!  
+> Congratulations on your first Django-powered page.  
+> ...  
 
 
 #### 4. Visit the admin login page
