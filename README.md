@@ -13,9 +13,21 @@ It is a "Hello world" reference implementation of a basic django app with deploy
 `DJANGO_SETTINGS_MODULE`  
 Specify the value as `one.settings`.
 
+* Virtual path  
+`WSGIPath`
+Specify the value as `one/wsgi.py`
+
 * S3 Details  
 `AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_STORAGE_BUCKET_NAME`  
-Where `AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY` are your IAM User's key-pair credentials. And `AWS_STORAGE_BUCKET_NAME` is the name of your S3 bucket.
+Where `AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY` are your IAM User's key-pair credentials. And `AWS_STORAGE_BUCKET_NAME` is the name of your S3 bucket. Make sure the IAM user has access to the S3 bucket. Use the following procedure for doing so:
+>>> import boto  
+>>> s3 = boto.connect_s3('<access_key>', '<secret_key>')  
+>>> bucket = s3.lookup('donebox-static')  
+>>> key = bucket.new_key('testkey')  
+>>> key.set_contents_from_string('This is a test')  
+>>> key.exists()  
+>>> key.delete()  
+
 
 * Postgresql DB Details  
 `DB_ENGINE, DB_HOST, DB_NAME, DB_PASSWORD, DB_PORT, DB_USER`  
